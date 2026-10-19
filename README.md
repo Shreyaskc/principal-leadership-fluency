@@ -70,3 +70,16 @@ Add public courses in `registry.js` only after verifying their exact live URL an
 - [Google SRE Workbook: Eliminating Toil](https://sre.google/workbook/eliminating-toil/): operational work and leverage.
 
 Frameworks, examples, synthesis and practice scoring in this course are original educational material. Referenced organizations do not endorse this app.
+
+## Six-course directory
+
+The Courses switcher lists verified public sites. The current course is marked, and the native disclosure supports keyboard and mobile use. Progress remains local to each app. Registry: `courses.json`; markup helper: `tools/course_switcher.py`; shared styles: `courses.css`.
+
+- [AI Learning](https://shreyaskc.github.io/AI-Learning/) · [repository](https://github.com/Shreyaskc/AI-Learning)
+- [System Design Fluency](https://shreyaskc.github.io/system-design-fluency/) · [repository](https://github.com/Shreyaskc/system-design-fluency)
+- [DSA Fluency](https://shreyaskc.github.io/dsa-fluency/) · [repository](https://github.com/Shreyaskc/dsa-fluency)
+- [Principal Leadership Fluency](https://shreyaskc.github.io/principal-leadership-fluency/) · [repository](https://github.com/Shreyaskc/principal-leadership-fluency)
+- [Production Platforms Fluency](https://shreyaskc.github.io/production-platforms-fluency/) · [repository](https://github.com/Shreyaskc/production-platforms-fluency)
+- [Practical Engineering Fluency](https://shreyaskc.github.io/practical-engineering-fluency/) · [repository](https://github.com/Shreyaskc/practical-engineering-fluency)
+
+After changing the verified registry, run `python3 tools/course_switcher.py` to refresh navigation; validate with `python3 tools/course_switcher.py --check`. System Design also regenerates navigation through its normal build.
