@@ -1,0 +1,8 @@
+{
+  "name": "principal-leadership-fluency",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Evidence-first principal engineering learning course",
+  "scripts": {"test": "node tests/course.test.cjs", "serve": "python3 -m http.server 8073"},
+  "devDependencies": {"jsdom": "30.1.3"}
+}
