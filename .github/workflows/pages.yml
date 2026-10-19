@@ -21,7 +21,7 @@ jobs:
       - name: Prepare public files only
         run: |
           mkdir _site
-          cp index.html app.js content.js registry.js style.css _site/
+          cp index.html app.js content.js registry.js style.css courses.css courses.json README.md _site/
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
